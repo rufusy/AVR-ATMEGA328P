@@ -1,5 +1,5 @@
 ################################################################################
-# Edit avrdude parameters only if necessary line 78
+# Automatically-generated file. Do not edit!
 ################################################################################
 
 -include ../makefile.init
