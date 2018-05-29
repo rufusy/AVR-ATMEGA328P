@@ -14,7 +14,10 @@ void usart_init();
 void send_char(char);
 void send_string(char*);
 char get_char();
-char* get_string();
+
+
+
+
 
 
 #endif /* SRC_USART_H_ */

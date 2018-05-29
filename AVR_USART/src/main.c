@@ -12,14 +12,28 @@ char* msg = "hello";
 int main(){
 	usart_init();
 	sei();
-	while(1){
+	for(;;){
+
+		send_char(input);
+		_delay_ms(1000);
+
+
+		/*************************************************
+		// uncomment below block to send the string msg
+		**************************************************/
+
+		/*
 		send_string(msg);
-		_delay_ms(5000);
+		_delay_ms(1000);
+		*/
+
 	}
-return 0;
+	return 0;
 }
 
-/* Receive character using interrupt */
+
+// receive characters via interrupts
 ISR(USART_RX_vect){
-	//send_string(msg);
+	input = get_char();
 }
+

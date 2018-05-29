@@ -5,13 +5,10 @@
 /*****************************************************
  * MACROS FOR BIT MANIPULATION
  * **************************************************/
-// bit
-#define bit(n) (1 << n)
-// Set bit
-#define sbit(v, n) v |= (1 << n)
-// Clear bit
-#define cbit(v, n) v &= !(1 << n)
 
+#define bit(n) (1 << n)	// is bit **n** set?
+#define sbit(v, n) v |= (1 << n)	// set bit **n** in register **v**
+#define cbit(v, n) v &= !(1 << n)	// clear bit **n** in register **v**
 
 
 #endif /* SRC_STDUTILS_H_ */
