@@ -1,4 +1,4 @@
-device drivers for AVR328P
+device drivers for AVR-ATMEGA328P
 
   
 
