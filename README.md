@@ -1,4 +1,4 @@
-device drivers for AVR-ATMEGA328P
+Device drivers impelementation for the avr 8-bit microcontrollers. 
 
   
 
